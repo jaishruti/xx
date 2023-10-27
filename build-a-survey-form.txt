@@ -1,0 +1,59 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration form</title>
+    </head>
+</html>
+<body>
+  <h1 id="title">Yoga survey form</h1>
+  <p id="description"> Thank you taking the time to improve our platform</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label" >Name<input id="name" type="text" placeholder="Enter your name" required /></label><br>
+    <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required /></label><br>
+    <label id="number-label">Age<input id="number" type="number" min="10" max="100" placeholder="Enter your age"/></label><br>
+    
+    <label>How did you hear about us?
+         <select id="dropdown">
+           <option value="">(select one)</option>
+           <option value="1">Instagram</option>
+           <option value="2">YouTube Channel</option>
+           <option value="3">LinkedIn</option>
+           <option value="4">Facebook</option>
+         </select>
+       </label>
+       </fieldset>
+       <fieldset>
+         <legend>Select your gender</legend>
+       <input type="radio" name="group" value="1" checked>Female
+       <input type="radio" name="group" value="2">Male
+       </fieldset>
+       <fieldset>
+         <legend>Select the problems you have</legend>
+         <label><input type="checkbox" value="1">Diabetes</label>
+         <label><input type="checkbox" value="2"> High pressure</label>
+         <label><input type="checkbox" value="3">Low-pressure</label>
+         <label><input type="checkbox" value="4">Arthiritis</label>
+         </fieldset>
+         <fieldset>
+           <legend>Comment below if any other problem</legend>
+           <textarea rows="5" cols="30"></textarea>
+           <input type="submit" id="submit"></input>
+           </fieldset>
+
+
+
+    
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
